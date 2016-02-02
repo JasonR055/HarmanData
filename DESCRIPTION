@@ -1,0 +1,33 @@
+Package: HarmanData
+Type: Package
+Title: Data for the Harman package
+Version: 0.99.0
+Date: 2016-02-01
+Authors@R: c(person("Josh", "Bowden", role = "aut",
+		     email = "josh.bowden@csiro.au"),
+	      person("Jason", "Ross", role = c("aut", "cre"),
+		     email = "jason.ross@csiro.au"),
+	      person("Yalchin", "Oytam", role = "aut",
+		    email = "yalchin.oytam@csiro.au"))
+Description: Datasets of accompany Harman, a PCA and constrained optimisation
+    based technique. Contains three datasets: IMR90, Human lung fibroblast cells
+    exposed to nitric oxide; NPM, an experiment to test skin penetration of
+    metal oxide nanoparticles following topical application of sunscreens in
+    non-pregnant mice; OLF; an experiment to gauge the response of human
+    olfactory neurosphere-derived (hONS) cells to ZnO nanoparticles.
+NeedsCompilation: no
+Suggests:
+    BiocGenerics,
+    knitr,
+    rmarkdown,
+    Harman
+Depends:
+    R (>= 3.2)
+License: GPL-3
+LazyData: true
+biocViews: BatchEffect, ExpressionData, MicroarrayData, Homo_Sapiens_Data,
+    Mus_Musculus_Data
+VignetteBuilder: knitr
+URL: http://www.bioinformatics.csiro.au/harman/
+BugReports: https://github.com/JasonR055/Harman/issues
+RoxygenNote: 5.0.1
