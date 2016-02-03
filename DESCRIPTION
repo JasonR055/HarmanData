@@ -17,17 +17,13 @@ Description: Datasets of accompany Harman, a PCA and constrained optimisation
     olfactory neurosphere-derived (hONS) cells to ZnO nanoparticles.
 NeedsCompilation: no
 Suggests:
-    BiocGenerics,
-    knitr,
-    rmarkdown,
-    Harman
+    BiocGenerics
 Depends:
     R (>= 3.2)
 License: GPL-3
 LazyData: true
 biocViews: BatchEffect, ExpressionData, MicroarrayData, Homo_Sapiens_Data,
     Mus_Musculus_Data
-VignetteBuilder: knitr
 URL: http://www.bioinformatics.csiro.au/harman/
 BugReports: https://github.com/JasonR055/Harman/issues
 RoxygenNote: 5.0.1
