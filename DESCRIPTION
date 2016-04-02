@@ -1,7 +1,7 @@
 Package: HarmanData
 Type: Package
 Title: Data for the Harman package
-Version: 0.99.0
+Version: 0.99.2
 Date: 2016-02-01
 Authors@R: c(person("Josh", "Bowden", role = "aut",
 		     email = "josh.bowden@csiro.au"),
@@ -17,13 +17,17 @@ Description: Datasets of accompany Harman, a PCA and constrained optimisation
     olfactory neurosphere-derived (hONS) cells to ZnO nanoparticles.
 NeedsCompilation: no
 Suggests:
-    BiocGenerics
+    BiocGenerics,
+    BiocStyle,
+    knitr,
+    rmarkdown
 Depends:
-    R (>= 3.2)
+    R (>= 3.2.3)
 License: GPL-3
 LazyData: true
-biocViews: BatchEffect, ExpressionData, MicroarrayData, Homo_Sapiens_Data,
-    Mus_Musculus_Data
+VignetteBuilder: knitr
+biocViews: ExpressionData, MicroarrayData, ExperimentData, Homo_sapiens_Data,
+    Mus_musculus_Data
 URL: http://www.bioinformatics.csiro.au/harman/
 BugReports: https://github.com/JasonR055/Harman/issues
 RoxygenNote: 5.0.1
